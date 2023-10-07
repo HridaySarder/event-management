@@ -13,7 +13,7 @@ const {name,image,price,shortDetails,detailsBtn} = events
     <p>{shortDetails}</p>
     <div className="card-actions justify-end items-center">
       <p className="text-xl">Price: {price}</p>
-      <button className="btn btn-primary">{detailsBtn}</button>
+      <button className="btn btn-neutral">{detailsBtn}</button>
     </div>
   </div>
 </div>
