@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Mathematics Workshop",
+    "image": "https://i.ibb.co/cc8cLjY/math.jpg",
+    "price": "$49.99",
+    "shortDetails": "Learn advanced math concepts.",
+    "detailsBtn": "View Details"
+  },
+  {
+    "id": "2",
+    "name": "Science Fair 2023",
+    "image": "https://i.ibb.co/kqNBYBb/science-Fair.jpg",
+    "price": "Free",
+    "shortDetails": "Showcase your science project.",
+    "detailsBtn": "View Details"
+  },
+  {
+    "id": "3",
+    "name": "Coding Bootcamp",
+    "image": "https://i.ibb.co/NmddH7D/Cooding-Bootcamp.jpg",
+    "price": "$299.99",
+    "shortDetails": "Master programming skills.",
+    "detailsBtn": "View Details"
+  },
+  {
+    "id": "4",
+    "name": "Art and Creativity Seminar",
+    "image": "https://i.ibb.co/WHKC6rR/art-And-Creatibity.jpg",
+    "price": "$19.99",
+    "shortDetails": "Unleash your artistic potential.",
+    "detailsBtn": "View Details"
+  },
+  {
+    "id": "5",
+    "name": "Language Learning Class",
+    "image": "https://i.ibb.co/HdWmCHK/Language-Class.jpg",
+    "price": "$89.99",
+    "shortDetails": "Become fluent in a new language.",
+    "detailsBtn": "View Details"
+  },
+  {
+    "id": "6",
+    "name": "History Symposium",
+    "image": "https://i.ibb.co/tmkWCyT/History-Symposium.jpg",
+    "price": "$39.99",
+    "shortDetails": "Explore historical events.",
+    "detailsBtn": "View Details"
+  }
+]
