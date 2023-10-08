@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 
 
 const EventCard = ({events}) => {
 
-const {name,image,price,shortDetails,detailsBtn} = events
+const {id,name,image,price,shortDetails,detailsBtn} = events
 
   return (
     <div>
@@ -13,7 +14,7 @@ const {name,image,price,shortDetails,detailsBtn} = events
     <p>{shortDetails}</p>
     <div className="card-actions justify-end items-center">
       <p className="text-xl">Price: {price}</p>
-      <button className="btn btn-neutral">{detailsBtn}</button>
+      <Link to={`/events/${id}`}><button className="btn btn-neutral">{detailsBtn}</button></Link>
     </div>
   </div>
 </div>

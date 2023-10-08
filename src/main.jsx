@@ -13,6 +13,8 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 import Home from './Home/Home';
 import AuthProvider from './providers/AuthProvider';
+import Events from './Home/Events/Events';
+import PrivateRoute from './Routes/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +24,12 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Home></Home>,
-        loader:() => fetch('event.json')
+        loader:() => fetch('/event.json')
+      },
+      {
+        path:"/events/:id",
+        element:<PrivateRoute><Events></Events></PrivateRoute>,
+        // loader:() => fetch('/event.json')
       },
       {
         path:"/register",

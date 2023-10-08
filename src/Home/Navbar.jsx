@@ -5,12 +5,14 @@ import { AuthContext } from "../providers/AuthProvider";
 const navLinks = <>
 <li className="text-lg"><NavLink to={"/"}>Home</NavLink></li>
 <li className="text-lg"><NavLink to={"/about"}>About</NavLink></li>
-<li className="text-lg"><NavLink to={"/details"}>Details</NavLink></li>
-<li className="text-lg"><NavLink to={"/login"}>Login</NavLink></li>
+<li className="text-lg"><NavLink to={"/events"}>Events</NavLink></li>
+
 
 </>
 
 const Navbar = () => {
+
+
 
   const {user,logOut} = useContext(AuthContext)
 const handleLogOut = () => {
@@ -33,7 +35,7 @@ const handleLogOut = () => {
 
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">HR Event</a>
+    <a className="btn btn-ghost normal-case text-xl">E&T Events</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -44,15 +46,23 @@ const handleLogOut = () => {
   </div>
   <div className="navbar-end">
 
-{
-  user ? 
-  <button onClick={handleLogOut} className="btn">Logout</button>
-  :
-<Link to={"/login"} >
-      <button className="btn">Login</button>
-      </Link>
-}
-
+  {user ? (
+          <div className="flex items-center space-x-2">
+            <img
+              src={user.photoURL} // Assuming Firebase user object has a photoURL field
+              alt={user.displayName}
+              className="h-8 w-8 rounded-full"
+            />
+            <span className="text-lg">{user.email}</span>
+            <button onClick={handleLogOut} className="btn">
+              Logout
+            </button>
+          </div>
+        ) : (
+          <Link to={"/login"}>
+            <button className="btn">Login</button>
+          </Link>
+        )}
     
   </div>
 </div>
