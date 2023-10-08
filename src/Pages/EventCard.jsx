@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 
@@ -14,7 +15,7 @@ const {id,name,image,price,shortDetails,detailsBtn} = events
     <p>{shortDetails}</p>
     <div className="card-actions justify-end items-center">
       <p className="text-xl">Price: {price}</p>
-      <Link to={`/events/${id}`}><button className="btn btn-neutral">{detailsBtn}</button></Link>
+      <Link to={`/events/${id}`}><button className="btn bg-cyan-500 p-3 text-white">{detailsBtn}</button></Link>
     </div>
   </div>
 </div>

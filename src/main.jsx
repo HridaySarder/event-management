@@ -15,11 +15,15 @@ import Home from './Home/Home';
 import AuthProvider from './providers/AuthProvider';
 import Events from './Home/Events/Events';
 import PrivateRoute from './Routes/PrivateRoute';
+import About from './Pages/About';
+import Event from './Home/Events/Event/Event';
+import Error from './Pages/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element:<Root></Root>,
+    errorElement:<Error></Error>,
     children:[
       {
         path:"/",
@@ -30,6 +34,14 @@ const router = createBrowserRouter([
         path:"/events/:id",
         element:<PrivateRoute><Events></Events></PrivateRoute>,
         // loader:() => fetch('/event.json')
+      },
+      {
+        path:"/about",
+        element:<PrivateRoute><About></About></PrivateRoute>
+      },
+      {
+        path:"/event",
+        element:<PrivateRoute><Event></Event></PrivateRoute>
       },
       {
         path:"/register",
