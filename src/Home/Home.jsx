@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import EventCard from "../Pages/EventCard";
 import Banner from "./Banner";
 import Footer from "./Footer";
+import ExtraPart from "./ExtraPart";
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const events = useLoaderData()
           events.map(event => <EventCard key={event.id} events={event}></EventCard>)
         }
       </div>
+      <ExtraPart></ExtraPart>
       <Footer></Footer>
     </div>
   );

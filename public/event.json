@@ -9,9 +9,9 @@
   },
   {
     "id": "2",
-    "name": "Science Fair 2023",
+    "name": "Science Fair",
     "image": "https://i.ibb.co/kqNBYBb/science-Fair.jpg",
-    "price": "Free",
+    "price": "$300",
     "shortDetails": "Showcase your science project.",
     "detailsBtn": "View Details"
   },
