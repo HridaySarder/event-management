@@ -5,7 +5,8 @@
     "image": "https://i.ibb.co/cc8cLjY/math.jpg",
     "price": "$49.99",
     "shortDetails": "Learn advanced math concepts.",
-    "details": "Join our Mathematics Workshop to dive deep into the world of advanced mathematical concepts. This workshop is designed for enthusiasts who want to explore the beauty of numbers, equations, and mathematical theories. Our expert instructors will guide you through challenging topics, from calculus to abstract algebra. Whether you're a student or a math lover, this workshop will expand your horizons and deepen your understanding of mathematics. Don't miss out on this opportunity to enhance your math skills and gain a new perspective on the subject."
+    "details": "Join our Mathematics Workshop to dive deep into the world of advanced mathematical concepts. This workshop is designed for enthusiasts who want to explore the beauty of numbers, equations, and mathematical theories. Our expert instructors will guide you through challenging topics, from calculus to abstract algebra. Whether you're a student or a math lover, this workshop will expand your horizons and deepen your understanding of mathematics. Don't miss out on this opportunity to enhance your math skills and gain a new perspective on the subject.",
+    "detailsBtn":"Details"
   },
   {
     "id": "2",
@@ -13,7 +14,8 @@
     "image": "https://i.ibb.co/kqNBYBb/science-Fair.jpg",
     "price": "$300",
     "shortDetails": "Showcase your science project.",
-    "details": "The Science Fair is your chance to showcase your innovative science projects and experiments. Whether you're a budding scientist, engineer, or inventor, this event is the perfect platform to share your discoveries with the world. Our judges, who are experts in various scientific fields, will evaluate your project based on creativity, scientific method, and presentation. You'll also have the opportunity to interact with fellow participants and learn from their projects. Join us for an exciting day of scientific exploration and inspiration."
+    "details": "The Science Fair is your chance to showcase your innovative science projects and experiments. Whether you're a budding scientist, engineer, or inventor, this event is the perfect platform to share your discoveries with the world. Our judges, who are experts in various scientific fields, will evaluate your project based on creativity, scientific method, and presentation. You'll also have the opportunity to interact with fellow participants and learn from their projects. Join us for an exciting day of scientific exploration and inspiration.",
+    "detailsBtn":"Details"
   },
   {
     "id": "3",
@@ -21,7 +23,8 @@
     "image": "https://i.ibb.co/NmddH7D/Cooding-Bootcamp.jpg",
     "price": "$299.99",
     "shortDetails": "Master programming skills.",
-    "details": "Embark on a coding journey like no other at our intensive Coding Bootcamp. Whether you're a beginner or an experienced programmer, our bootcamp caters to all skill levels. You'll dive deep into programming languages, web development, and software engineering. Our expert instructors will mentor you, and you'll work on real-world projects to build a strong portfolio. By the end of the bootcamp, you'll have the skills and knowledge to pursue a rewarding career in the tech industry. Join us and become a coding wizard!"
+    "details": "Embark on a coding journey like no other at our intensive Coding Bootcamp. Whether you're a beginner or an experienced programmer, our bootcamp caters to all skill levels. You'll dive deep into programming languages, web development, and software engineering. Our expert instructors will mentor you, and you'll work on real-world projects to build a strong portfolio. By the end of the bootcamp, you'll have the skills and knowledge to pursue a rewarding career in the tech industry. Join us and become a coding wizard!",
+    "detailsBtn":"Details"
   },
   {
     "id": "4",
@@ -29,7 +32,8 @@
     "image": "https://i.ibb.co/WHKC6rR/art-And-Creatibity.jpg",
     "price": "$19.99",
     "shortDetails": "Unleash your artistic potential.",
-    "details": "Unleash your artistic potential at our Art and Creativity Seminar. Whether you're an aspiring painter, sculptor, or mixed-media artist, this seminar is your canvas to explore your creativity. Learn from renowned artists and experiment with various art forms and techniques. From traditional oil painting to digital art, you'll have the chance to express yourself in new and exciting ways. Connect with fellow artists, gain inspiration, and take your artistry to the next level. Join us for a transformative artistic experience!"
+    "details": "Unleash your artistic potential at our Art and Creativity Seminar. Whether you're an aspiring painter, sculptor, or mixed-media artist, this seminar is your canvas to explore your creativity. Learn from renowned artists and experiment with various art forms and techniques. From traditional oil painting to digital art, you'll have the chance to express yourself in new and exciting ways. Connect with fellow artists, gain inspiration, and take your artistry to the next level. Join us for a transformative artistic experience!",
+    "detailsBtn":"Details"
   },
   {
     "id": "5",
@@ -37,7 +41,8 @@
     "image": "https://i.ibb.co/HdWmCHK/Language-Class.jpg",
     "price": "$89.99",
     "shortDetails": "Become fluent in a new language.",
-    "details": "Become fluent in a new language with our Language Learning Class. Language opens doors to new cultures and opportunities, and our experienced instructors will guide you on this linguistic journey. Whether you're learning for travel, business, or personal growth, our classes cater to all language enthusiasts. You'll immerse yourself in conversations, vocabulary, and cultural insights. By the end of the course, you'll confidently communicate in your chosen language. Join us and embark on a linguistic adventure!"
+    "details": "Become fluent in a new language with our Language Learning Class. Language opens doors to new cultures and opportunities, and our experienced instructors will guide you on this linguistic journey. Whether you're learning for travel, business, or personal growth, our classes cater to all language enthusiasts. You'll immerse yourself in conversations, vocabulary, and cultural insights. By the end of the course, you'll confidently communicate in your chosen language. Join us and embark on a linguistic adventure!",
+    "detailsBtn":"Details"
   },
   {
     "id": "6",
@@ -45,6 +50,7 @@
     "image": "https://i.ibb.co/tmkWCyT/History-Symposium.jpg",
     "price": "$39.99",
     "shortDetails": "Explore historical events.",
-    "details": "Explore the rich tapestry of historical events at our History Symposium. Delve into the past with leading historians and archaeologists as they unravel intriguing stories and mysteries of bygone eras. From ancient civilizations to modern revolutions, our symposium covers a wide range of topics. Engage in lively discussions, view historical artifacts, and gain a deeper understanding of the world's history. Whether you're a history buff or just curious, this event promises to be an enlightening journey through time."
+    "details": "Explore the rich tapestry of historical events at our History Symposium. Delve into the past with leading historians and archaeologists as they unravel intriguing stories and mysteries of bygone eras. From ancient civilizations to modern revolutions, our symposium covers a wide range of topics. Engage in lively discussions, view historical artifacts, and gain a deeper understanding of the world's history. Whether you're a history buff or just curious, this event promises to be an enlightening journey through time.",
+    "detailsBtn":"Details"
   }
 ]

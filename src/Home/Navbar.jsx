@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../providers/AuthProvider";
 
 const navLinks = <>
-<li className="text-lg"><NavLink to={"/"}>Home</NavLink></li>
-<li className="text-lg"><NavLink to={"/about"}>About</NavLink></li>
-<li className="text-lg"><NavLink to={"/event"}>Events</NavLink></li>
+<li className="text-lg text-lime-500"><NavLink to={"/"}>Home</NavLink></li>
+<li className="text-lg text-lime-500"><NavLink to={"/about"}>About</NavLink></li>
+<li className="text-lg text-lime-500"><NavLink to={"/event"}>Events</NavLink></li>
 
 
 </>
@@ -37,7 +37,7 @@ const handleLogOut = () => {
     </div>
     <div className="flex items-center">
       <img className="w-20" src={'https://i.ibb.co/4mSx1rj/logo.jpg '} alt="" />
-    <a className="btn btn-ghost normal-case text-xl"> E&T Events</a>
+    <a className="btn text-lime-500 btn-ghost normal-case text-2xl"> E&T Events</a>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -57,13 +57,13 @@ const handleLogOut = () => {
               className="h-8 w-8 rounded-full"
             />
             <span className="text-lg">{user.email}</span>
-            <button onClick={handleLogOut} className="btn">
+            <button onClick={handleLogOut} className="btn text-lg text-lime-500">
               Logout
             </button>
           </div>
         ) : (
           <Link to={"/login"}>
-            <button className="btn">Login</button>
+            <button className="btn text-lime-500 text-lg">Login</button>
           </Link>
         )}
     

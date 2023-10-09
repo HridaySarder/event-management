@@ -1,8 +1,8 @@
-# React + Vite
+# E&T Events
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a education and training event management website.There are many features in this website.That is _
+- In this website users can manage their educational or training events.
+- User can see some events in the homepage.
+- If user want to see the events details,have must registration.
+- After registration user can login the website and see the private route.
+- User can contact the management if they want to arrenge a events.
