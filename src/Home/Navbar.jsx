@@ -52,7 +52,7 @@ const handleLogOut = () => {
   {user ? (
           <div className="flex items-center space-x-2">
             <img
-              src={user.photoURL} // Assuming Firebase user object has a photoURL field
+              src={user.photoURL} 
               alt={user.displayName}
               className="h-8 w-8 rounded-full"
             />
