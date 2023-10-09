@@ -2,7 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Home/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
-
+import { FcGoogle } from 'react-icons/fc';
 
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -102,9 +102,9 @@ const Login = () => {
             Register
           </Link>
         </p>
-        <p className="text-center">
-          <button onClick={handleGoogleSignIn} className="btn btn-active">
-            Google
+        <p className="text-center"><span className="font-bold">Sign in With</span> <br />
+          <button onClick={handleGoogleSignIn} className="">
+            <FcGoogle className="text-4xl"></FcGoogle>
           </button>
         </p>
       </div>

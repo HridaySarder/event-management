@@ -54,7 +54,7 @@ const handleLogOut = () => {
             <img
               src={user.photoURL} 
               alt={user.displayName}
-              className="h-8 w-8 rounded-full"
+              className="h-10 w-10 rounded-full"
             />
             <span className="text-lg">{user.email}</span>
             <button onClick={handleLogOut} className="btn text-lg text-lime-500">

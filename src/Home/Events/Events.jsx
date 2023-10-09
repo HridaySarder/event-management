@@ -1,16 +1,18 @@
 import { useParams } from "react-router-dom";
+import Navbar from "../Navbar";
 
 
 
 const Events = () => {
 
-  const {id} = useParams()
+  const {details} = useParams()
 
   return (
     <div>
-      This is event
+      <Navbar></Navbar>
+      <h2 className="text-center text-3xl text-lime-500">Events Details:</h2>
       
-      <p>{id}</p>
+      <p>{details}</p>
     </div>
   );
 };
