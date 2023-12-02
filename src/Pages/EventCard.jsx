@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const EventCard = ({events}) => {
 
-const {id,name,image,price,shortDetails,detailsBtn,details} = events
+const {id,name,image,price,shortDetails,detailsBtn} = events
 
   return (
     <div>
